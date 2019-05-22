@@ -19,6 +19,7 @@ public class Wk3 {
         private int ID;
         private String firstname;
     private int Maxcore;
+    private boolean Part_time;
 
     /**
      * @return the ID
@@ -46,6 +47,20 @@ public class Wk3 {
      */
     public void setFirstname(String firstname) {
         this.firstname = firstname;
+    }
+
+    /**
+     * @return the Part_time
+     */
+    public boolean isPart_time() {
+        return Part_time;
+    }
+
+    /**
+     * @param Part_time the Part_time to set
+     */
+    public void setPart_time(boolean Part_time) {
+        this.Part_time = Part_time;
     }
 
     /**
