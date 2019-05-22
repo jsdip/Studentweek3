@@ -18,6 +18,7 @@ public class Wk3 {
         // TODO code application logic here
         private int ID;
         private String firstname;
+    private int Maxcore;
 
     /**
      * @return the ID
